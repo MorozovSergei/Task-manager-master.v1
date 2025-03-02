@@ -19,5 +19,4 @@ export class AddInitialUser1740845651403 implements MigrationInterface {
             DELETE FROM "user" WHERE email IN ('robert@example.com', 'daniel@example.com', 'john@example.com', 'william@example.com', 'scott@example.com')
         `);
     }
-
 }
